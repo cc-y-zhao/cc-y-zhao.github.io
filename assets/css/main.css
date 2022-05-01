@@ -3794,3 +3794,9 @@ input, select, textarea {
 		.after-chris-rec {
 			margin-top: 33px;
 		}
+
+		.header-div {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
