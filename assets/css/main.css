@@ -3828,6 +3828,8 @@ input, select, textarea {
 		.each-project-div {
 			display: flex;
 			flex-direction: row;
+			justify-content: flex-start;
+			align-content: flex-start;
 			/* align-items: flex-start; */
 		}
 
