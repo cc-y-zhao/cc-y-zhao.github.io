@@ -3821,7 +3821,7 @@ input, select, textarea {
 			height: 100%;
 			margin-left: 20px;
 			/* align-content: center; */
-			margin-bottom: 30px;
+			margin-bottom: 40px;
 			font-size: 17px;
 		}
 
@@ -3837,4 +3837,32 @@ input, select, textarea {
 
 		.project-links {
 			text-align: left;
+		}
+
+			/* .icon.major:before {
+				display: inline-block;
+				font-size: 6.25rem;
+				width: 2.25em;
+				height: 2.25em;
+				line-height: 2.2em;
+				border-radius: 100%;
+				border: solid 1px;
+				text-align: center;
+			}
+			 */
+
+		.contact-icon {
+			font-size: 45px;
+			/* width: 10px;
+			height: 10px; */
+		}
+
+		.contact-section {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+
+		.cell-div {
+			margin-right: 70px;
 		}
