@@ -3842,7 +3842,14 @@ input, select, textarea {
 		}
 
 		.project-links {
-			text-align: center;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+
+		.separator {
+			margin-left: 10px;
+			margin-right: 10px;
 		}
 
 			/* .icon.major:before {
@@ -3871,6 +3878,10 @@ input, select, textarea {
 
 		.cell-div {
 			margin-right: 70px;
+		}
+
+		.no-underline {
+			text-decoration: none;
 		}
 
 		/* .slack-space {
