@@ -3801,11 +3801,11 @@ input, select, textarea {
 			align-items: center;
 		}
 
-		.projects-container {
+		/* .projects-container {
 			display: flex;
 			flex-direction: row;
 			flex-wrap: wrap;
-		}
+		} */
 
 		.img-div {
 			display: inline-block;
@@ -3817,18 +3817,24 @@ input, select, textarea {
 
 		.project-description-div {
 			display: inline-block;
-			width: 60%;
+			width: 50%;
 			height: 100%;
-			margin-left: 20px;
+			margin-left: 100px;
 			/* align-content: center; */
 			margin-bottom: 40px;
 			font-size: 17px;
+			/* border: solid; */
 		}
 
 		.each-project-div {
 			display: flex;
 			flex-direction: row;
 			justify-content: flex-start;
+			margin-bottom: 60px;
+		}
+
+		h3 {
+			font-weight: 400;
 		}
 
 		.project-descrip {
@@ -3836,7 +3842,7 @@ input, select, textarea {
 		}
 
 		.project-links {
-			text-align: left;
+			text-align: center;
 		}
 
 			/* .icon.major:before {
@@ -3866,3 +3872,8 @@ input, select, textarea {
 		.cell-div {
 			margin-right: 70px;
 		}
+
+		/* .slack-space {
+			color: #ffffff !important;
+			height: 60px;
+		} */
